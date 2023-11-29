@@ -1,0 +1,333 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.navbar ul li a{
+  text-decoration: none;
+  
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  background: rgb(88, 34, 196);
+  padding: 30px;
+}
+.link{
+  margin-left: 50px;
+}
+a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: larger;
+  font-weight: 700;
+  cursor: pointer;
+  font-style: oblique;
+}
+a:hover{
+  color: skyblue;
+}
+.admin{
+  margin-left: 250px;
+  height: 350px;
+  width: 800px;
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+}
+.teacher{
+  height: 350px;
+  width: 350px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  background: rgb(246, 240, 240);
+}
+.student{
+  height: 350px;
+  width: 350px;
+  /* border: 2px solid yellow; */
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(246, 240, 240);
+}
+.input-box{
+  padding: 13px;
+  margin-top: 30px;
+  border: 2px solid skyblue;
+}
+.panel{
+  text-decoration: underline;
+  text-decoration-color: #61dafb;
+
+}
+.st{
+  text-decoration: underline;
+  text-decoration-color: rgb(88, 34, 196);
+
+}
+.btn{
+  margin-top: 20px;
+}
+.btnn{
+  padding: 7px;
+  background: crimson;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btnn:hover{
+  background-color: aliceblue;
+}
+.link .active{
+  color: rgb(34, 192, 34);
+}
+.box{
+  /* border: 2px solid blue; */
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+
+}
+.box11{
+  /* border: 2px solid yellow; */
+  height: 350px;
+  width: 25%;
+  background: rgb(246, 240, 240);
+
+}
+.box22{
+  border: 2px solid red;
+  height: 350px;
+  width: 30%;
+  margin-left: 10%;
+  background-color: rgb(104, 52, 214);
+
+}
+.box33{
+  /* border: 2px solid green; */
+  height: 350px;
+  width: 25%;
+  margin-left: 10%;
+  background: rgb(246, 240, 240);
+
+}
+.studenList{
+  text-align: center;
+  margin-top: 50px;
+}
+.studentList ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+  background:rgb(246, 240, 240) ;
+}
+.studentList ul{
+  margin: 0;
+}
+.studentListT{
+  margin-top: 50px;
+}
+.studentListT ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+  background:rgb(246, 240, 240) ;
+}
+.studentListT ul{
+  margin: 0;
+}
+
+.tt{
+  background-color: blueviolet;
+  width: 5px;
+
+}
+.inpp{
+  display: inline-block;
+  width: 60px;
+
+}
+.pa{
+  display: flex;
+  flex-direction: row;
+  
+}
+.pr{
+
+}
+.ab{
+  margin-left: 5px;
+}
+.stdetailll{
+  width: 100px;
+  padding: 5px;
+}
+.stdetaill{
+  width: 200px;
+  margin-left: 3px;
+  padding: 5px;
+}
+.stdetail{
+  width: 60px;
+  margin-left: 3px;
+  padding: 5px;
+
+}
+.sla{
+  margin-top: 5px;
+}
+.courses{
+  /* border: 2px solid red; */
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+ 
+}
+.cse{
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 30%;
+  /* background-color: gray; */
+  background: rgb(246, 240, 240);
+}
+.civil{
+  /* border: 2px solid blue; */
+  height: 100%;
+  width: 30%;
+  margin-left: 58px;
+  /* background-color: gray; */
+  background: rgb(246, 240, 240);
+}
+.mech{
+  /* border: 2px solid yellow; */
+  height: 100%;
+  width: 30%;
+  margin-left: 58px;
+  /* background-color: gray; */
+  background: rgb(246, 240, 240);
+
+}
+.cvsem{
+  background-color: crimson;
+  margin-top: 5px;
+}
+.cvsemm{
+  background-color: green;
+  margin-top: 5px;
+}
+.subjects{
+  /* border: 2px solid green; */
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+.firstbox{
+  /* border: 2px solid yellow; */
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.secnbox{
+  /* border: 2px solid red; */
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.fssem, .thsem,.forsem, .fifsem, .sixsem, .sevsem, .eigsem{
+  /* border: 2px solid cyan; */
+  height: 100%;
+  width: 25%;
+
+}
+.thsem{
+  background-color: #61dafb;
+}
+.fssem{
+  background-color: #c4b8ce;
+}
+.forsem{
+  background-color: #45b79c;
+}
+.sixsem{
+  background-color: #db321c;
+}
+.sevsem{
+  background-color: #953fc3;
+}
+.fifsem{
+  background-color: #d14fa5;
+
+}
+.eigsem{
+  background-color: #189f9c6a;
+
+}
+.cssss{
+  background-color: rgba(162, 173, 178, 0.393);
+}
+.marks{
+  background-color: gray;
+  width: 300px;
+  align-items: center;
+}
+.cheminput{
+  margin-top: 10px;
+  padding: 5px;
+  background-color:  rgb(250, 253, 253);
+  border: 1px solid skyblue; 
+}
+.chemistry{
+  height: 350px;
+  width: 350px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  background: rgb(250, 253, 253); 
+  margin-left: 450px;
+
+}
+.rr{
+  
+}
+.mseth{
+  max-width: 60px;
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
